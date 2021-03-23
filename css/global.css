@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Fredericka the Great', cursive;
+    
+}
+body{
+    font-size: 10px;
+}
+.Me{
+    width: 25em;
+    height: 25em;
+    padding: 1em;
+}
+.metoo{
+     width: 24em;
+    height: 24em;
+    position: absolute;
+}
+/*----navegacion*/
+
+.navegation{
+    height: 10em;
+    width: 100%;
+    background-color: #131313;
+    display: flex;
+    padding-left: 5em;
+}
+.navegation ul{
+    list-style: none;
+   
+}
+.menu > li{
+    position: relative;
+    display: inline-block;  
+    margin-left: 3em;
+    margin-top: 1em;  
+}
+.menu > li > a{
+    display:block;
+    margin-top: 20px;
+    padding-left:25px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 3em;
+}
+.menu li a:hover{
+    color: #FE1C1C;
+    font-size: 3em;
+    transition: all.2s;
+}
+section{
+    background-color: #C1C1C1;
+    height: 100em;
+    width: 100%;
+}
